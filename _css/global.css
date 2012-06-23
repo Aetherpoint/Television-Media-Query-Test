@@ -1,0 +1,17 @@
+.docbody .test {
+margin: 0 auto;
+width:90%;
+}
+
+
+#television1, 
+#television2, #television3, 
+#television4, #television5, 
+#television6, #television7{
+border: 5px;
+border-style: dotted;
+height: 200px;
+width: 100%;
+background-color: #FFFFFF;
+}
+

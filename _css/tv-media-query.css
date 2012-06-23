@@ -1,0 +1,50 @@
+@media tv {
+
+#television1 {
+background-color: #51b0ff;
+}
+}
+
+@media tv and (min-device-width: 1023px) {
+
+#television2 {
+background-color: #51b0ff;
+}
+}
+
+@media tv and (min-device-width: 1279px) {
+
+#television3 {
+background-color: #51b0ff;
+}
+}
+
+@media tv and (min-device-width: 1919px) {
+
+#television4 {
+background-color: #51b0ff
+}
+}
+
+@media tv and (device-aspect-ratio: 16/9) {
+
+#television5 {
+background-color: #51b0ff
+}
+}
+
+@media tv and (scan: progressive) {
+
+#television6 {
+background-color: #51b0ff
+}
+}
+
+@media tv and (scan: interlace) {
+
+#television7 {
+background-color: #51b0ff
+}
+}
+
+}

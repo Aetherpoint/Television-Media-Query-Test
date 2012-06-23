@@ -1,0 +1,122 @@
+ <!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- serve basic styles to all browsers -->
+  	<link href="_css/basic.css" rel="stylesheet">
+
+ 	<!-- formatting -->
+  	<link href="_css/global.css" rel="stylesheet">
+
+ 	<!-- media queries -->
+	<link href="_css/tv-media-query.css" rel="stylesheet">
+
+	<title>Television Media Query Test v1.0</title>
+
+</head>
+
+<body> 
+
+	<div class="masthead">
+	</div><!-- /masthead -->
+	
+	<ul class="globalnav">
+	</ul><!-- /globalnav -->
+	
+	<div class="docbody">
+
+		<div class="test">
+		<h1>Television Media Query Test</h1>
+
+		<p>Different media queries attempting to target TV.</p>
+
+		<h2>Resources</h2>
+		<ul><li><a href="https://developers.google.com/tv/web/docs/design_for_tv">Google TV Developers</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/File:Vector_Video_Standards4.svg">Visual of TV "Breakpoints"</a></li>
+		<li><a href="http://www.mhp.org/docs/itv-design_v1.pdf">Designing for Interactive TV"</a></li>
+		</ul>
+		</div>	
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv</h1>
+
+			<p>Test if the box turns blue. Targets TV</p>
+
+			<div id="television1">
+
+			</div>
+		</div>
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv and (min-device-width: 1023px)</h1>
+
+			<p>Test if the box turns blue. Should target PAL t and up.</p>
+
+			<div id="television2">
+
+			</div>
+		</div>
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv and (min-device-width: 1279px)</h1>
+
+			<p>Test if the box turns blue. Should target HD 720 and up.</p>
+
+			<div id="television3">
+
+			</div>
+		</div>
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv and (min-device-width: 1919px)</h1>
+
+			<p>Test if the box turns blue. Should target HD 1919 and up.</p>
+
+			<div id="television4">
+
+			</div>
+		</div>
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv and (device-aspect-ratio: 16/9)</h1>
+
+			<p>Test if the box turns blue. Should target TV with a 16:9 aspect ratio.</p>
+
+			<div id="television5">
+
+			</div>
+		</div>
+
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv and (scan: progressive)</h1>
+
+			<p>Test if the box turns blue. Should target TV a progressive, or a noninterlaced scan.</p>
+
+			<div id="television6">
+
+			</div>
+		</div>
+
+		<div class="test">
+			<h1>Television Media Query Test: @media tv and (scan: interlace)</h1>
+
+			<p>Test if the box turns blue. Should target TV an interlaced scan</p>
+
+			<div id="television7">
+
+			</div>
+		</div>
+	</div><!-- /docbody -->
+	
+	
+	<div class="footer">
+
+	</div><!-- /footer -->
+
+
+
+</body> 
+</html>
