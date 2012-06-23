@@ -5,6 +5,10 @@ An attempt to get a sense of what media queries are supported if any for the tel
 
 <strong><a href="http://aetherpoint.com/tv/">Live Test</a></strong>
 
+Tv Support List:
+
+<ul>
+<ul>
 
 Resources:
 
