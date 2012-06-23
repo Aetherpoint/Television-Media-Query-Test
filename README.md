@@ -8,7 +8,7 @@ An attempt to get a sense of what media queries are supported if any for the tel
 Tv Support List:
 
 <ul>
-<ul>
+</ul>
 
 Resources:
 
