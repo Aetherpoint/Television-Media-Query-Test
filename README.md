@@ -8,6 +8,15 @@ An attempt to get a sense of what media queries are supported if any for the tel
 Tv Support List:
 
 <ul>
+  <li>
+  <strong>Google TV</strong> - No media queries worked, not even TV.
+  </li>
+  <li>
+  <strong>Wii Opera Browser</strong> - 
+  </li>
+  <li>
+  <strong>Apple TV</strong> - 
+  </li>
 </ul>
 
 Resources:
