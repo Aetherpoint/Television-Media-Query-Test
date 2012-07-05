@@ -34,8 +34,7 @@ Additional Info:
   <strong>Exclusive By Spec</strong> - Media Queries are exclusive by spec. If they are implemented on Tv, they'd have to not support Screen, breaking the rest of the web on TV's.
   </li>
   <li>
-  <strong>Multiple Media Queries</strong> - If they supported both, in spite of the spec, there's a cascade issue
-media types are not intended to cascade
+  <strong>Multiple Media Queries</strong> - If they supported both, in spite of the spec, there's a cascade issue. Media types are not intended to cascade.
   </li>
 </ul>
 
