@@ -26,3 +26,17 @@ Resources:
 <li><a href="http://en.wikipedia.org/wiki/File:Vector_Video_Standards4.svg">Visual of TV "Breakpoints"</a></li>
 <li><a href="http://www.mhp.org/docs/itv-design_v1.pdf">Designing for Interactive TV"</a></li>
 </ul>
+
+Additional Info: 
+
+<ul>
+  <li>
+  <strong>Exclusive By Spec</strong> - Media Queries are exclusive by spec. If they are implemented on Tv, they'd have to not support Screen, breaking the rest of the web on TV's.
+  </li>
+  <li>
+  <strong>Multiple Media Queries</strong> - If they supported both, in spite of the spec, there's a cascade issue
+media types are not intended to cascade
+  </li>
+</ul>
+
+
