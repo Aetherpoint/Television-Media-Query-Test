@@ -3,7 +3,7 @@ Television-Media-Query-Test
 
 An attempt to get a sense of what media queries are supported if any for the television.
 
-<strong><a href="http://aetherpoint.com/tv/">Live Test</a></strong>
+The outlook does not look good, so don't expect this happening anytime soon.
 
 Tv Support List:
 
